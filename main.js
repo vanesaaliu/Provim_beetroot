@@ -1,3 +1,4 @@
+
 $('.owl-one').owlCarousel({
     loop:true,
     margin:10,
@@ -58,12 +59,12 @@ $('.owl-two').owlCarousel({
     }
 })
 
-$(".hamburger").click(function(){
-    $(".hamburgerCLICK").toggle("slow");
-  });
-$(".foto").click(function(){
-    var src=document.getElementById('foto1').src;
-    var img = document.createElement('img');
-    img.src=src;
-    document.getElementById('body').appendChild = img;
-});
+// $(".hamburger").click(function(){
+//     $(".hamburgerCLICK").toggle("slow");
+//   });
+// $(".foto").click(function(){
+//     var src=document.getElementById('foto1').src;
+//     var img = document.createElement('img');
+//     img.src=src;
+//     document.getElementById('body').appendChild = img;
+// });

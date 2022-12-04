@@ -55,6 +55,9 @@ table {
 * {
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 .header__list {
   display: flex;
@@ -81,6 +84,7 @@ img {
   font-size: 14px;
   line-height: 18px;
   color: #FFFFFF;
+
 }
 
 .header__logo {
