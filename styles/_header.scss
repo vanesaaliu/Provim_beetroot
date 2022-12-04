@@ -4,11 +4,15 @@
     padding-top: 53px;
 }
 .background-header__picture{
-  background: url(../assets/header-photo.png);
-  background:linear-gradient(243.43deg, #6442ddd1 16.9%, #49A3E3 83.27%);
+
+  background:linear-gradient(243.43deg, #6442ddd1 16.9%, #49A3E3 83.27%),url(../assets/header-photo.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 800px;
+}
+img{
+  max-width: 100%;
+  height: auto;
 }
 .header__link a{
     font-family: $fontFamily;

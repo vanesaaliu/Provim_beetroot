@@ -1,0 +1,36 @@
+.footer {
+    & {
+        background:linear-gradient(243.43deg, #6442ddd1 16.9%, #49A3E3 83.27%), url(../assets/image2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    &__wrapper{
+    padding:254px 0 291px 47px;
+       }
+    &__copyright{
+        padding-top: 41px;
+        padding-left: 20%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+
+       }
+    &__list{
+        display: flex;
+        align-items: center;
+        margin-left: 250px;
+
+    }
+    & .logo{
+        margin-right: 20px;
+    }
+    & .icon {
+        margin-right: 300px;
+    }}
+ img{
+        max-width: 100%;
+        height: auto; }

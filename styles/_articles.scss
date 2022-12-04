@@ -91,11 +91,16 @@
 
 
 //second article
+  .second-article__contains{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
 .second-article{
   padding-top: 646px; 
 }
 .second-article__oneWorld{
-  padding-top: -152px;
+  padding-top: -100px;
 }
 .second-article__title{
     margin-bottom: 89px;

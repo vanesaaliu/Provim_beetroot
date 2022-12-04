@@ -1,6 +1,6 @@
 .latest-news {
     & {
-    background:linear-gradient(243.43deg, #6442ddd1 16.9%, #49A3E3 83.27%), url('../assets/rectangle5.jpg');
+    background:linear-gradient(243.43deg, #6442ddd1 16.9%, #49A3E3 83.27%), url(../assets/image.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 291px;
@@ -36,7 +36,7 @@
         font-weight: 700;
         font-size: 22px;
         line-height: 27px;
-        color: #FFFFFF;
+        color:#2C4058;
         margin-bottom: 30px;
     }
     & p {
@@ -45,9 +45,15 @@
         font-weight: 400;
         font-size: 18px;
         line-height: 25px;
-        color: #FFFFFF;
+        color: #2C4058;
         margin-bottom: 40px;
     }
 }
 
+   
+  
 }
+img{
+    max-width: 100%;
+    height: auto;
+  }
