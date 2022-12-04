@@ -1,8 +1,9 @@
 .footer {
     & {
-        background:linear-gradient(243.43deg, #6442ddd1 16.9%, #49A3E3 83.27%), url(../assets/image2.png);
+        background:linear-gradient(243.43deg, #6442ddd1 16.9%, #49A3E3 83.27%), url(../assets/footer.png);
         background-size: cover;
         background-repeat: no-repeat;
+        margin-top: -8px;
         
     }
     &__wrapper{

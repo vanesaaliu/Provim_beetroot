@@ -1,11 +1,12 @@
 .latest-news {
     & {
-    background:linear-gradient(243.43deg, #6442ddd1 16.9%, #49A3E3 83.27%), url(../assets/image.png);
+    background: linear-gradient(237.1deg, #24CCFA 11.16%, #3C7FD4 89.18%), url('../assets/city.png');
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 291px;
     }
     &__title {
+        @include title--white;
         font-weight: 700;
         font-size: 44px;
         line-height: 54px;
@@ -19,7 +20,7 @@
         margin-top: 135px;
     }
     & .item {
-        background-color: white;
+        background-color: rgb(252, 252, 252);
         width: 370px;
         display: flex;
         flex-direction: column;
@@ -30,22 +31,24 @@
             padding-left: 41px;
         }
          & h4 {
+            @include small--title;
         padding-right: 20px;
         padding-left: 20px;
         margin-top: 30px;
         font-weight: 700;
         font-size: 22px;
         line-height: 27px;
-        color:#2C4058;
+        color: #2C4058;
         margin-bottom: 30px;
     }
     & p {
+        font-family: $fontFamily;
         padding-right: 20px;
         padding-left: 20px;
         font-weight: 400;
         font-size: 18px;
         line-height: 25px;
-        color: #2C4058;
+        color: #000000;
         margin-bottom: 40px;
     }
 }
@@ -53,7 +56,3 @@
    
   
 }
-img{
-    max-width: 100%;
-    height: auto;
-  }
