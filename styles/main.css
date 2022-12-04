@@ -1,0 +1,320 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  padding-top: 53px;
+}
+
+.background-header__picture {
+  background: url(../assets/header-photo.png);
+  background: linear-gradient(243.43deg, rgba(100, 66, 221, 0.8196078431) 16.9%, #49A3E3 83.27%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+
+.header__link a {
+  font-family: "Source Sans Pro", sans-serif;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.header__logo {
+  margin-right: 144px;
+}
+
+.header__link:first-child {
+  margin-right: 144px;
+}
+
+.header__link:nth-child(2), .header__link:nth-child(3), .header__link:nth-child(4) {
+  margin-right: 70px;
+}
+
+.header__link:nth-child(5) {
+  margin-right: 110px;
+}
+
+.header__link:nth-child(6), .header__link:nth-child(7) {
+  margin-right: 20px;
+}
+
+.header__link:nth-child(2)::before, .header__link:nth-child(3)::before, .header__link:nth-child(4)::before, .header__link:nth-child(5)::before {
+  content: url("../assets/circle.svg");
+  padding-right: 14px;
+}
+
+.header__link:nth-child(2):hover::before, .header__link:nth-child(3):hover::before, .header__link:nth-child(4):hover::before, .header__link:nth-child(5):hover::before {
+  content: url("../assets/circle2.svg");
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.first__section h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 98px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  padding-bottom: 20px;
+  padding-top: 223px;
+}
+
+.first__section h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.3em;
+  color: #FFFFFF;
+}
+
+.first__section .title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first__section-arrow {
+  display: flex;
+  justify-content: center;
+  padding-top: 240px;
+  padding-bottom: 50px;
+}
+
+.first-article__line {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.first-article__title {
+  margin-bottom: 89px;
+  margin-top: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  text-align: center;
+  color: #2C4058;
+}
+
+.first-article__contains {
+  display: flex;
+  flex-direction: row;
+  float: left;
+}
+
+.first-article__image {
+  margin-right: 95px;
+  margin-left: -292px;
+  float: left;
+}
+
+.first-article__oneWorld {
+  margin-top: -44px;
+}
+
+.first-article__title1 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  color: #2C4058;
+  margin-top: 240px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.first-article__title2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  color: #2C4058;
+  margin-bottom: 19px;
+}
+
+.first-article__p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #2C4058;
+  padding-bottom: 41px;
+}
+
+.fa_button {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2C4058;
+  text-decoration: none;
+  padding: 16px 41px;
+  border: 1px solid black;
+}
+.fa_button:hover {
+  background-color: #2C4058;
+  color: #FFFFFF;
+  transition: 0.3s;
+}
+
+.first-article__location {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.second-article__title {
+  margin-bottom: 89px;
+  margin-top: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  text-align: center;
+  color: #2C4058;
+  float: left;
+}
+
+.second-article__contains {
+  margin-top: 152px;
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+}
+
+.second-article__oneWorld {
+  margin-top: -44px;
+}
+
+.second-article__title1 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  color: #2C4058;
+  margin-top: 240px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.second-article__title2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  color: #2C4058;
+  margin-bottom: 19px;
+}
+
+.second-article__p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #2C4058;
+  padding-bottom: 41px;
+}
+
+.fa_button {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2C4058;
+  text-decoration: none;
+  padding: 16px 41px;
+  border: 1px solid black;
+}
+.fa_button:hover {
+  background-color: #2C4058;
+  color: #FFFFFF;
+  transition: 0.3s;
+}
+
+.second-article__location {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+}/*# sourceMappingURL=main.css.map */

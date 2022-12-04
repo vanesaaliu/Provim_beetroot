@@ -1,0 +1,86 @@
+@mixin container {
+    max-width: $containerWidth;
+    width: 100%;
+    margin: 0 auto;
+}
+        @mixin text {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            color: $fontColor1;
+        }
+
+        // @mixin location-text {
+         
+        // font-family: 'Open Sans';
+        // font-style: italic;
+        // font-weight: 400;
+        // font-size: 15px;
+        // line-height: 20px;
+        // color: #000000;
+
+        // }
+        
+        @mixin line {
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+            margin-bottom: 30px;
+        }
+        @mixin title {
+                margin-top: 30px;
+                margin-bottom: 87px;
+                font-family: $fontFamily1;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 44px;
+                line-height: 54px;
+                color: $fontColor1;
+                }
+        @mixin small--title{
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 27px;
+            color:$fontColor1;
+            margin-top: 240px; 
+            font-family: $fontFamily1;
+        }
+        @mixin title--white {
+            font-family: $fontFamily;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 44px;
+            line-height: 54px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        
+
+        @mixin button {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color:$fontColor1 ;
+            text-decoration: none;
+            padding: 16px 41px;
+            border: 1px solid black;
+        
+            &:hover {
+                background-color: $fontColor1;
+                color:#FFFFFF;
+                transition: 0.3s;
+            }
+        }
+        
+
+        @mixin second-title{
+            font-family: $fontFamily1;
+            font-weight: 700;
+            font-size: 44px;
+            line-height: 54px;
+            color: #2C4058;
+        }

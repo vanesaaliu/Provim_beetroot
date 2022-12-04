@@ -1,0 +1,46 @@
+.header__list{
+    display: flex;
+    align-items: center;
+    padding-top: 53px;
+}
+.background-header__picture{
+  background: url(../assets/header-photo.png);
+  background:linear-gradient(243.43deg, #6442ddd1 16.9%, #49A3E3 83.27%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+.header__link a{
+    font-family: $fontFamily;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.header__logo{
+    margin-right: 144px;
+}
+
+.header__link:first-child {
+    margin-right: 144px;  
+  }
+  .header__link:nth-child(2), .header__link:nth-child(3), .header__link:nth-child(4) {
+    margin-right: 70px;
+  }
+  .header__link:nth-child(5) {
+    margin-right: 110px;
+  }
+  .header__link:nth-child(6), .header__link:nth-child(7) {
+    margin-right: 20px;
+  }
+  .header__link:nth-child(2)::before, .header__link:nth-child(3)::before, .header__link:nth-child(4)::before, .header__link:nth-child(5)::before {
+    content: url("../assets/circle.svg");
+    padding-right: 14px;
+  }
+  .header__link:nth-child(2):hover::before, .header__link:nth-child(3):hover::before, .header__link:nth-child(4):hover::before, .header__link:nth-child(5):hover::before {
+    content: url("../assets/circle2.svg");
+}
+  .container {
+    @include container;
+  }
