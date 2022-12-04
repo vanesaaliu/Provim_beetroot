@@ -16,6 +16,7 @@
         margin-top: 39px;
     }
     &__vija {
+        
         margin-left: 530px;
         margin-top: 135px;
     }
@@ -52,7 +53,37 @@
         margin-bottom: 40px;
     }
 }
+.news-personalities{
+    display: flex;  
+}
+.news-personalities{
+    width: 253px;
+    height: 73px;
+    padding-left: 41px;
+}
 
-   
+.latest-news__authors h6{
+    font-family: $fontFamily1;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2C4058;
+}
+.latest-news__authors p{
+    font-family: $fontFamily1;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #55B7FF;
+}
+
+.owl-one .owl-dot{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: -5%;
+    top: -10%;
+   }
+
   
 }
