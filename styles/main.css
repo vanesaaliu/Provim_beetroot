@@ -51,6 +51,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 * {
   box-sizing: border-box;
@@ -436,20 +439,6 @@ img {
   position: absolute;
   z-index: -1;
   top: 234px;
-}
-
-.wwd2 .wwd_image2 {
-  width: 50%;
-  margin-right: 0px;
-}
-.wwd2 .wwd__article2 {
-  margin-right: 80px;
-}
-.wwd2 .wwd__rectangle2 {
-  position: absolute;
-  right: -5.4%;
-  top: -65px;
-  z-index: -1;
 }
 
 .latest-news {
