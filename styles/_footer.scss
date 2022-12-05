@@ -38,10 +38,7 @@
         
 
     @media(max-width:767px){
-        *{
-            outline:1px solid red;
-
-        }
+       
         .latest-news__vija {
             margin-left: 148px;
             margin-top: 94px;
@@ -72,7 +69,7 @@
             }
             .second-article__oneWorld {
                 padding-left: 0;
-                margin-right: 431px;
+                margin-right: 399px;
             }
             .first-article__image {
                 margin-right: -217px;
@@ -144,7 +141,13 @@
         font-weight: 700;
         font-size: 26px;
         }
-    
+        .second-article h5{
+            font-size: 13px;
+        }
+        .second-article__title2 {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 700;
+            font-size: 17px;}
         .first__section h5{
             font-size: 13px;
         }
@@ -162,7 +165,7 @@
             text-decoration: none;
             font-weight: 400;
             font-size: 5px;}
-        
+         
 }
 
     
@@ -319,4 +322,4 @@
 
             
             }
-        
+    
