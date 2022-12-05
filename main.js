@@ -58,13 +58,3 @@ $('.owl-two').owlCarousel({
         }
     }
 })
-
-// $(".hamburger").click(function(){
-//     $(".hamburgerCLICK").toggle("slow");
-//   });
-// $(".foto").click(function(){
-//     var src=document.getElementById('foto1').src;
-//     var img = document.createElement('img');
-//     img.src=src;
-//     document.getElementById('body').appendChild = img;
-// });
