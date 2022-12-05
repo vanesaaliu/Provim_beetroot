@@ -757,11 +757,25 @@ img {
     padding-bottom: 20px;
     padding-top: 90px;
   }
+  .background-header__picture {
+    height: 537px;
+  }
   .first__section-arrow {
     display: flex;
     justify-content: center;
     padding-top: 146px;
     padding-bottom: 42px;
+  }
+  .second-article__oneWorld {
+    padding-left: 0;
+    margin-right: 431px;
+  }
+  .first-article__image {
+    margin-right: -217px;
+    float: left;
+  }
+  .first-article__oneWorld {
+    margin-top: 59px;
   }
   .first-article__title2 {
     font-family: "Montserrat", sans-serif;
@@ -771,15 +785,30 @@ img {
     color: #2C4058;
     margin-bottom: -7px;
   }
+  .first-article__oneWorld {
+    margin-top: 0px;
+    padding-right: 119px;
+  }
+  .first-article__title1 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 27px;
+    color: #2C4058;
+    margin-top: 231px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .fa_button {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+  }
   .contact__form {
     background-color: white;
     padding: 0px 0px 49px 20px;
-    top: 65%;
-    left: 2%;
-    right: 2%;
-  }
-  .first-article__oneWorld {
-    margin-top: -286px;
+    top: 31%;
+    left: -13%;
+    right: 5%;
   }
   .contact__form-list {
     margin-right: 54px;
@@ -795,6 +824,18 @@ img {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+  }
+  .contact .button {
+    margin-left: 59px;
+    margin-right: 67px;
+  }
+  .contact input {
+    margin-bottom: 12px;
+  }
+  .title .title_text {
+    margin-top: 10px;
+    font-size: 25px;
+    padding-left: 67px;
   }
   .first__section h1 {
     font-family: "Montserrat", sans-serif;
@@ -820,7 +861,7 @@ img {
     font-size: 5px;
   }
 }
-@media (max-width: 767px) and (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .header__logo {
     margin-right: 144px;
   }
